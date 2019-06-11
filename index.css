@@ -1,0 +1,104 @@
+
+.backgroundImg img {
+    display: flex;
+    position: fixed;
+    max-width: 1920px;
+    max-height: 1080px;
+  }
+  
+  h1 {
+      text-align: center;
+  }
+  
+  button {
+      background-color: white;
+  
+  }
+  
+  .start {
+      display: block;
+      text-align: center;
+  }
+  
+  .headerPics {
+      width: 40px;
+      height: 40px;
+  }
+  
+  header li {
+      display: inline-block;
+      margin: 20px;
+  }
+  
+  .header {
+      width: 400px;
+  }
+  
+  header {
+      display: flex;
+      flex-direction: column;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+  }
+  
+  .stats {
+      color: white;
+  }
+  
+  main {
+    position: relative;
+    padding: 20px;
+    color: white;
+  }
+  
+  .quizBody {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  form {
+    max-width: 600px;
+    border: none;
+  }
+  
+  .submitAnswer {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .negative {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .feedback {
+    color: white;
+    margin: 0 auto;
+  }
+  
+  .goodFeedback {
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  
+  @media screen and (max-width: 480px) {
+    .header {
+      width: 300px;
+    }
+  }
